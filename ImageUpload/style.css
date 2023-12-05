@@ -1,0 +1,40 @@
+html {
+    background-color: #a3b4ff;
+  }
+  
+  body {
+    background-color: #eeecff;
+    font-size: 1.3em;
+    font-family: arial, sans-serif;
+    margin: 1em;
+    border: 1px solid #550000;
+    padding: 1em;
+  }
+
+  .flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+
+    
+  }
+
+  .flex-box {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    
+   
+  }
+img {
+  width: 100%;
+  height: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: separate;
+    text-align: center;
+  }
+
+  

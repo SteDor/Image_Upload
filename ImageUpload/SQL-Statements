@@ -1,0 +1,10 @@
+CREATE DATABASE PictureFiles;
+
+USE PictureFiles;
+
+CREATE TABLE files (
+    FileID INT NOT NULL AUTO_INCREMENT , 
+    OriginalName VARCHAR(150) NOT NULL , 
+    SystemName VARCHAR(12) NOT NULL , 
+    PRIMARY KEY (FileID)) 
+    ENGINE = InnoDB;
